@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Ứng dụng quản lí sản phẩm </title>
+</head>
+
+<body>
+    <h1>Add new product</h1>
+    Product Name :<input type="text" id="index" /> <br/>
+    <input type="text" id="product_name" /> <br/> Manufacture Name : <input type="text" id="manufacture_name" /> <br/> Category Name :<input type="text" id="category_name" /> <br/> Price: <input type="number" id="price" /> <br/> Quantity :<input type="text"
+        id="quantity" /> <br/> Total Price <input type="text" id="totalprice" /> <br/>
+    <button type='button' onclick="btn_add_newproduct()">Add</button>
+    <h1>Display All Products</h1>
+    <table id="product_table">
+        <tbody id='result'>
+
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+    <script>
+        show_product()
+    </script>
+</body>
+
+</html>
